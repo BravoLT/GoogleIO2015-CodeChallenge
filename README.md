@@ -4,7 +4,7 @@ The prize: A brand new HP Chromebook
 
 Rules:
  1. Any language
- 2. Must complete all challenge questions to qualify
+ 2. Must correctly complete all challenge questions to qualify
 
 To enter:
  1. Make a fork

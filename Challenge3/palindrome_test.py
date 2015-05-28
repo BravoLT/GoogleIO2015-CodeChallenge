@@ -7,9 +7,9 @@ class PalindromeTest(unittest.TestCase):
 		finder = PalindromeFinder('palindromes.txt')
 		self.assertEqual(finder.longest(),'rotavator')
 
-	def test_no_palindromes(self):
+	def test_one_palindromes(self):
 		finder = PalindromeFinder('gettysburg.txt')
-		self.assertEqual(finder.longest(),None)
+		self.assertEqual(finder.longest(),'did')
 
 if __name__ == '__main__':
 	unittest.main()

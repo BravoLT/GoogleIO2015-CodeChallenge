@@ -3,7 +3,7 @@
 Are you up for the challenge? Put your coding skills to the test for a chance to win a HP Chromebook 14.
 
 ## Rules:
- 1. You may compete in any language, however it must execute on a Ubuntu Linux machine.
+ 1. You may compete in any language, however it must execute on a Ubuntu 14.04 machine.
  2. Any correct answer to the challenge will give you one entry to the drawing.  Answer all 3 correctly, you get 3 entries.
  3. Entries must be completed by noon on Friday.  The drawing will occur at 3:45.  You must be present to win.
  4. Please do not copy other people or solutions found on the internet.  Honor system applies.

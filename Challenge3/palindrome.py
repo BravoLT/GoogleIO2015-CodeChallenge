@@ -1,3 +1,4 @@
+print '\n\n\nChallenge 3\n'
 class PalindromeFinder(object):
 	def __init__(self,filename):
 		self._palindromes = list()

@@ -12,4 +12,5 @@ class PalindromeTest(unittest.TestCase):
 		self.assertEqual(finder.longest(),'did')
 
 if __name__ == '__main__':
+	print '\nChallenge 3 Unit Tests'
 	unittest.main()

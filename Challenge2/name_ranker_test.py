@@ -14,4 +14,5 @@ class NameRankerTest(unittest.TestCase):
 
 
 if __name__ == '__main__':
+	print '\nChallenge 2 Unit Tests'
 	unittest.main()

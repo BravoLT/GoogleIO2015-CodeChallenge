@@ -5,13 +5,16 @@ The classic code interview/challenge problem.  Your program should print numbers
 The output should print 1 line per number/word.
 
 Incorrect:
+```
  1,2,Fizz,4,Buzz ...
+```
 
 Correct:
+```
 1
 2
 Fizz
 4
 Buzz
-
+```
 

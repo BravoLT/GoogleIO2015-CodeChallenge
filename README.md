@@ -1,23 +1,21 @@
-# Bravo Code Challenge for Google IO 2015
+# Bravo LT Code Challenge for Google IO 2015
 
-The prize: A brand new HP Chromebook
+Are you up for the challenge? Put your coding skills to the test for a chance to win a HP Chromebook 14.
 
 Rules:
- 1. Any language
- 2. Must correctly complete all challenge questions to qualify
+ 1. You may compete in any language, however it must execute on Ubuntu Linux
+ 2. Any correct answer to the challenge will give you one entry to the drawing.  Answer all 3 correctly, you get 3 entries.
+ 3. Entries must be completed by noon on Friday.  The drawing will occur at 3:45.  You must be present to win.
+ 4. Please do not copy other people or solutions found on the internet.  Honor system applies.
 
 To enter:
- 1. Make a fork
+ 1. Use your github account to fork this project
  2. Complete the challenge with your best code including unit tests and adhering to best practices for the language you choose
- 3. ?? Make a run.sh script to execute your code ??
- 4. Create a pull request
+ 3. Make a run.sh script to execute your code including any necessary parameters your program needs from the command line.
+ 4. Once you are finished, create a pull request and your entry will be complete.
 
-What we will do:
- 1. Ensure that your solutions produce the correct answer to each question
- 2. We will draw at 4pm on Friday from the correct responses
+If you have questions or feel that a description has not been given sufficient explanation, create an issue in this repository and we will address it.
 
-What we will not do:
- 1. Figure out how to run your code.  If you do not provide a run.sh with the expected parameters defined in the documentation for the individual challenge, your entry for that question will be considered a failure
- 2. Sell or otherwise share your personal information
+Thanks for your participation and best of luck!
 
-?? indicates this is a decision point that has not been made yet ??
+Team Bravo

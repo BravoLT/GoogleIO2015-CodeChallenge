@@ -1,7 +1,8 @@
 from collections import Counter
 
-class NameRanker(object):
-	_counter = Counter()
+class NameRanker():
+	def __init__(self):
+		self._counter = Counter()
 
 	def process_file(self,filename):
 		with open(filename, 'r') as f:

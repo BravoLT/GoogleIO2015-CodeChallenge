@@ -15,5 +15,7 @@ class NameRanker():
 	def number_of_names(self, name):
 		return self._counter[name]
 
-	def empty(self):
-		self._counter = Counter()
+ranker = NameRanker()
+ranker.process_file('test_input.txt')
+for name in ranker.top_n(10):
+	print "{0} - {1}".format(*name)

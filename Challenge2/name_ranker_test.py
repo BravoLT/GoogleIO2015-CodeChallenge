@@ -6,11 +6,8 @@ class NameRankerTest(unittest.TestCase):
 		self.ranker = NameRanker()
 		self.ranker.process_file('test_input.txt')
 
-	def tearDown(self):
-		del self.ranker
-		
 	def test_top_2(self):
-		self.assertEquals(self.ranker.top_n(2), [('Mary', 6), ('Amy', 6)])
+		self.assertEquals(self.ranker.top_n(2), [('Mary', 3), ('Amy', 3)])
 
 	def test_number_of_names(self):
 		self.assertEquals(self.ranker.number_of_names('Mary'),3)

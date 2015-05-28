@@ -1,4 +1,3 @@
-echo < `pwd`
 cd ./Challenge1
 python fizzbuzz_test.py
 cd ../Challenge2

@@ -8,10 +8,10 @@ Incorrect:
  1,2,Fizz,4,Buzz ...
 
 Correct:
-1
-2
-Fizz
-4
-Buzz
+    1
+    2
+    Fizz
+    4
+    Buzz
 
 

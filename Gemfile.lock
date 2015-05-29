@@ -1,0 +1,16 @@
+PATH
+  remote: ../Challenge1/fizzbuzz
+  specs:
+    fizzbuzz (0.1.0)
+
+GEM
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fizzbuzz!
+
+BUNDLED WITH
+   1.10.0

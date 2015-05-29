@@ -1,7 +1,7 @@
 <?php
 $filename = $argv[1];
 
-// We could to a lot of test on the file (existence, permissions, content...)
+// We could to a lot of tests for the file (existence, permissions, content...)
 // ...but let's not go crazy here
 
 $handle = fopen($filename, "r");

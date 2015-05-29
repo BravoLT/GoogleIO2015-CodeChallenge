@@ -1,5 +1,11 @@
+args = []
+
+ARGV.each_with_index do|a,i|
+  args[i] = a
+end
+
 nameranks = Hash.new
-File.open('test_input.txt').each do |line|
+File.open(args[0]).each do |line|
     name = line.strip
     if (nameranks[name] != nil)
         nameranks[name] += 1

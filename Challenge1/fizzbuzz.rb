@@ -1,3 +1,9 @@
+args = []
+
+ARGV.each_with_index do|a,i|
+  args[i] = a
+end
+
 def fizzbuzz(number)
     divisibleBy3 = (number % 3 == 0)
     divisibleBy5 = (number % 5 == 0)
@@ -14,4 +20,11 @@ def fizzbuzz(number)
     end
 end
 
-(1..100).each {|n| fizzbuzz n}
+startNbr = args[0].to_i
+endNbr   = args[1].to_i
+
+if (startNbr <= endNbr)
+    (startNbr..endNbr).each {|n| fizzbuzz n}
+else
+    puts "First arg must be less than or equal to second arg."
+end

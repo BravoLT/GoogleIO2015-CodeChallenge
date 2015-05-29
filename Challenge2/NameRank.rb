@@ -16,6 +16,6 @@ end
 
 nameranks = nameranks.sort_by {|_name, rank| rank}.reverse
 
-nameranks.each do |name, rank|
-    puts "#{name} - #{rank}"
+(0..(args[1].to_i-1)).each do |i|
+    puts "#{nameranks[i][0]} - #{nameranks[i][1]}"
 end

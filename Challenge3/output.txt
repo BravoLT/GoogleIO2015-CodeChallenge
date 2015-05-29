@@ -1,0 +1,3 @@
+Input file: C:\Users\kylep\Documents\GitHub\GoogleIO2015-CodeChallenge\Challenge3\gettysburg.txt
+ANYNA
+Longest Palindrome Length : 5

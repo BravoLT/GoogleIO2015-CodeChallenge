@@ -18,3 +18,6 @@ Fizz
 Buzz
 ```
 
+## Running Program
+Run this command from terminal:
+`./run.sh`

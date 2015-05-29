@@ -1,13 +1,15 @@
+import re
 print '\n\n\nChallenge 3\n'
 class PalindromeFinder(object):
 	def __init__(self,filename):
 		self._palindromes = list()
 		with open(filename, 'r') as f:
-			for line in f.readlines():
-				for word in line.split():
-					word = word.strip()
-					if word == word[::-1]:
-						self._palindromes.append(word)
+			text = re.sub('[^\w]+', '', f.read())
+			for i in range(len(text)):
+				for j in range(0, i):
+					chunk = text[j:i + 1]
+					if chunk == chunk[::-1]:
+						self._palindromes.append(chunk)
 
 	def longest(self):
 		longest = ''

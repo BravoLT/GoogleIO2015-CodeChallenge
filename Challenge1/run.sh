@@ -1,0 +1,1 @@
+java -jar challenge1.jar
